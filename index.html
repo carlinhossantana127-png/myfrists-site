@@ -1,13 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Botões com Frases</title>
 </head>
 <body>
-    olá, mundo
-    <h1>otavio bigodudo</h1>
-    
+
+  <h2>Clique nos botões 👇</h2>
+
+  <button onclick="mostrarFrase('slanderman Apolônio mt burro')">Botão 1</button>
+  <button onclick="mostrarFrase('otavio do bigodao sensual cubista')">Botão 2</button>
+  <button onclick="mostrarFrase('Thiago sempre forte verry negga')">Botão 3</button>
+  <button onclick="mostrarFrase('pedao da massa apostador da bet VIP')">Botão 4</button>
+  <button onclick="mostrarFrase('eu odeio Rilmaaaa')">Botão 5</button>
+  <button onclick="mostrarFrase('Davi e os 7 negoes')">Botão 6</button>
+
+  <p id="mensagem"></p>
+
+  <script>
+    function mostrarFrase(frase) {
+      document.getElementById("mensagem").innerText = frase;
+    }
+  </script>
+
 </body>
 </html>
